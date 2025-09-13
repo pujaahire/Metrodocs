@@ -1,5 +1,10 @@
 import React from "react";
 
+import uploadIcon from "../assets/upload.png";
+import summarizeIcon from "../assets/brain.png";
+import allDocsIcon from "../assets/database.png";
+import importantIcon from "../assets/document.png"; 
+
 function ActionButtons({ onUploadClick, onSummarizeClick, onAllDocsClick }) {
   const styles = {
     container: {
